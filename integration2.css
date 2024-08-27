@@ -1,0 +1,254 @@
+.container{
+    background-color: white;
+}
+.contenair1{
+    display: flex;
+}
+.contenair1 .navbar ul li{
+    text-decoration: none;
+    list-style: none;
+    gap: 10rem;
+    padding: 1rem;
+    
+}
+.contenair1 .navbar ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+
+}
+.contenair1 .navbar ul .right{
+    display: flex;
+    margin-left: 20rem;
+}
+.navbar nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-top: -3rem;
+    margin-left: 40rem;
+}
+.navbar nav h1{
+    color: white;
+    margin-left: 5rem;
+}
+.contenair .contenair1 #back{
+    width: 100%;  /*L'image couvre toute la largeur de la section */
+    height: 100%;/* L'image couvre toute la hauteur de la section */
+    object-fit: cover; /* Assure que l'image couvre bien toute la section sans se déformer */
+    position: absolute; /* Position absolue pour pouvoir placer le texte au-dessus */
+    top: 0;
+    left: 0;
+    z-index: -1 /* Met l'image derrière le texte */
+}
+.contenair .contenair1 .center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 15rem;
+    margin-left: -55rem;
+    width: 50%;
+}
+.contenair .contenair1 .services{
+    display: flex;
+    padding: 5rem;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-left:-60rem;
+    margin-right: 10rem;
+    margin-top: 40rem;
+    
+}
+.contenair .contenair1 .services .service{
+    border-radius: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 1rem;
+    
+}
+.but1{
+    background-color: rgb(235, 99, 53);
+    border: none;
+    color: white;
+    padding: 0.4rem;
+    width: 6rem;
+    height: 2rem;
+    margin-top: 0.7rem;
+    
+}
+.contenair2{
+    display: flex;
+    gap: 5rem;
+    margin-left: 20rem;
+    width: 150%;
+    margin-top: 5rem;
+}
+
+.contenair2 img{
+    margin-left: 4rem;
+}
+.contenair2 .text-right{
+    margin-bottom: -50rem;
+    margin-top: 8rem;
+    padding: 5rem;
+    gap: 5rem;
+}
+.contenair3{
+    display: flex;
+    gap: 5rem;
+    margin-left: 20rem;
+    margin-top: 10rem;
+}
+.contenair3 .text-left{
+    padding: 2rem;
+}
+.contenair4{
+    display: flex;
+    margin-top: 10rem;
+    margin-left: 12rem;
+    padding: 5rem;
+    
+}
+.contenair4 .small-section{
+
+    margin-bottom: 10rem;
+    gap: 2rem;
+    
+
+}
+.contenair4 .big-section{
+    display: flex;
+    gap: 5rem;
+    margin-top: 5rem;
+    margin-left: -5rem;
+    justify-content: center;
+}
+.img-section #sale{
+    color: white;
+    background-color: rgb(247, 108, 53);
+    border: none;
+    top:-50rem;
+    left: 0;
+    
+    
+}
+    
+.img-section img #pro{
+    z-index: -1;
+}
+.img-section .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4rem;
+    height: 2rem;
+    gap: 10px;
+    margin-left: -3rem;
+}
+.img-section .midelle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+    margin-left: -3rem;
+}
+.img-section .midelle .but-noir{
+    border: none;
+    background-color: black;
+    border-radius: 2rem;
+}
+.big-section .product #test{
+    gap: 2rem;
+    padding: 5rem;
+    margin-left: -1rem;
+    width: 50%;
+    justify-content:center;
+}
+.contenair5{
+    display: flex;
+    background-color: rgb(16, 16, 69);
+    position: block;
+    z-index: -1;
+    height: 90rem;
+}
+.contenair5.small-section{
+    margin-left:-5rem;
+}
+.contenair5 .popular-courses{
+    display: flex;
+    margin-top: 50rem;
+    gap: 2rem;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    height:10rem ;
+    margin-left: -5rem;
+}
+.contenair5 .popular-courses .course{
+    background-color: white;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.contenair6{
+    display: flex;
+
+}
+.contenair6 .first-section{
+    margin-left: 10rem;
+    margin-top: 10rem;
+    
+
+}
+.contenair6 .second-section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30rem;
+    gap: 20rem;
+    margin-left: -18rem;
+}
+.container6 .first-section .second-section .testimonial{
+    align-items: center;
+    justify-content: center;
+
+}
+.contenair7{
+    display: flex;
+    margin-top: 10rem;
+    margin-left: 40rem;
+    flex-direction: column;
+
+}
+.contenair8{
+    display: flex;
+    margin-top: 10rem;
+    margin-left: 18rem;
+    gap: 5rem;
+}
+.contenair8 .foot ul li a{
+    text-decoration: none;
+    color: rgb(99, 99, 100);
+}
+.contenair8 .foot ul li{
+    list-style: none;
+    padding: 0.5rem;
+    margin-left: -2rem;
+}
+footer{
+    display: flex;
+    margin-top: 5rem;
+    gap: 50rem;
+    background-color: rgb(245, 247, 249);
+}
+footer .icon{
+    margin-top: 1.1rem;
+    
+}
